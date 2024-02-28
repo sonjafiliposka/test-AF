@@ -1,6 +1,6 @@
 {
-    "librebooking_url": "http://gp4lab-orch-2.qalab.geant.net/Web/Services/index.php",
-    "librebooking_auth": "YWRhbXNraTpwYXNzMTIz",
-    "bastion_url": "http://gp4lab-orch-2.qalab.geant.net:8000/api/keys/",
-    "bastion_auth": "bm1hYXM6bm1hYXM="
+    "librebooking_url": "https://full-lb.rare.nmaas.eu/Web/Services/index.php",
+    "librebooking_auth": "YWRtaW46YWRtaW4x",
+    "bastion_url": "https://full-b.rare.nmaas.eu/api/keys/",
+    "bastion_auth": "YWRtaW46YWRtaW4="
 }
