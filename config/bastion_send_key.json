@@ -1,6 +1,0 @@
-{
-    "librebooking_url": "http://gp4lab-orch-2.qalab.geant.net/Web/Services/index.php",
-    "librebooking_auth": "YWRhbXNraTpwYXNzMTIz",
-    "bastion_url": "http://gp4lab-orch-2.qalab.geant.net:8000/api/keys/",
-    "bastion_auth": "bm1hYXM6bm1hYXM="
-}
