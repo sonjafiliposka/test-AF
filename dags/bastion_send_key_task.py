@@ -22,6 +22,7 @@ import datetime
 import requests
 import pendulum
 import json
+from pathlib import Path
 
 from requests.auth import HTTPBasicAuth
 
@@ -46,6 +47,7 @@ with DAG(
     # [START read config]
     @task
     def read_config():
+        print(Path.cwd())
         f = open("config/bastion_send_key.json")
         config = json.load(f)
         return {"x-booked-librebooking_url": config["librebooking_url"],
