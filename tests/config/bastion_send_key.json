@@ -1,5 +1,5 @@
 {
-    "librebooking_url": "https://full-lb.rare.nmaas.eu/Web/Services/index.php",
+    "librebooking_url": "https://test-book.rare.nmaas.eu/Web/Services/index.php",
     "librebooking_auth": "YWRtaW46YWRtaW4x",
     "bastion_url": "https://full-b.rare.nmaas.eu/api/keys/",
     "bastion_auth": "YWRtaW46YWRtaW4="
