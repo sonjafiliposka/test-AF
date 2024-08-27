@@ -64,6 +64,8 @@ with DAG(
         split = conf_file['x-booked-librebooking_auth'].strip().split(' ')
         username, password = b64decode(split[0]).decode().split(':', 1)
 
+	password = password.replace('\n', '')
+	    
         json_data = {
             'username': username,
             'password': password,
@@ -127,6 +129,8 @@ with DAG(
 
         split = conf_file['x-booked-bastion_auth'].strip().split(' ')
         username, password = b64decode(split[0]).decode().split(':', 1)
+
+	password = password.replace('\n', '')
 
         json_data = {
             'enable_date': enable_date,
